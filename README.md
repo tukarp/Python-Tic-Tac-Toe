@@ -2,7 +2,7 @@
 
 ## Simple Tic-Tac-Toe Game made in Python.
 
-![Tic-Tac-Toe](https://github.com/tukarp/Python-Tic-Tac-Toe/blob/main/Images/Tic-Tac-Toe.png)
+<img src="https://github.com/tukarp/Python-Tic-Tac-Toe/blob/main/Images/Tic-Tac-Toe.png" width=500 height=500>
 
 ### You can play it right now under this link:
 
