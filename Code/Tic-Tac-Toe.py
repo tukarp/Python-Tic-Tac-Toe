@@ -26,20 +26,24 @@ class Player(object):
         # Get correct input from player loop
         while True:
             # Get row and column from input
-            row, column = input(f"{self.name}: ").split()
+            try:
+                row, column = input(f"{self.name}: ").split()
 
-            # Check if row and column are digits
-            if row.isdigit() and column.isdigit():
-                # Check if both row and column are in range [0-2]
-                if int(row) in [0, 1, 2] and int(column) in [0, 1, 2]:
-                    # Return move
-                    return Move(int(row), int(column), self.sign)
+                # Check if row and column are digits
+                if row.isdigit() and column.isdigit():
+                    # Check if both row and column are in range [0-2]
+                    if int(row) in [0, 1, 2] and int(column) in [0, 1, 2]:
+                        # Return move
+                        return Move(int(row), int(column), self.sign)
+                    else:
+                        # Print error message
+                        print("Wrong coordinates!")
                 else:
                     # Print error message
-                    print("Wrong coordinates!")
-            else:
+                    print("You should enter numbers!")
+            except ValueError:
                 # Print error message
-                print("You should enter numbers!")
+                print("Value Error!")
 
 
 # Grid class
@@ -76,7 +80,7 @@ class Grid(object):
         # Check if field is empty
         if self.get_field(move.row, move.column) != "█":
             # Print error message
-            print("This field is not empty!")
+            print("This field is taken!")
             # Return False
             return False
         # Set field
