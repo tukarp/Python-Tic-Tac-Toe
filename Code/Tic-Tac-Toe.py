@@ -25,8 +25,9 @@ class Player(object):
 
         # Get correct input from player loop
         while True:
-            # Get row and column from input
+            # Try block
             try:
+                # Get row and column from input
                 row, column = input(f"{self.name}: ").split()
 
                 # Check if row and column are digits
@@ -41,6 +42,7 @@ class Player(object):
                 else:
                     # Print error message
                     print("You should enter numbers!")
+            # Raise ValueError exception
             except ValueError:
                 # Print error message
                 print("Value Error!")
