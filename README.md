@@ -2,7 +2,7 @@
 
 ## About
 
-### 
+### This repository contains my Python implementation of the classic *Paper-and-Pencil* game, *Tic-Tac-Toe*. This project was primarily developed during my *Python Programming* classes in 2023, with subsequent updates, code changes and finalization completed by me. I later updated this project to feature *Graphical User Interface*.
 
 <img src="https://github.com/tukarp/Python-Tic-Tac-Toe/blob/main/Images/Tic-Tac-Toe.png" width=500 height=500>
 
