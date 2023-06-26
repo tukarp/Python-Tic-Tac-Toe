@@ -6,7 +6,7 @@
 
 <img src="https://github.com/tukarp/Python-Tic-Tac-Toe/blob/main/Images/Tic-Tac-Toe.png" width=500 height=500>
 
-## Gameplay
+## Project Showcase
 
 https://github.com/tukarp/Python-Tic-Tac-Toe/assets/114019481/749e3c79-04e1-43d3-a427-82bfbe035404
 
